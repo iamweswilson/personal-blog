@@ -16,23 +16,10 @@
             {{ formatDate(article.updatedAt) }}
           </p>
           <span class="mr-3">•</span>
-          <p>{{ article.author.name }}</p>
         </div>
         <h1 class="text-6xl font-bold">{{ article.title }}</h1>
       </div>
       <div class="flex absolute top-3rem right-3rem">
-        <NuxtLink
-          to="/"
-          class="mr-8 self-center text-white font-bold hover:underline"
-        >
-          All articles
-        </NuxtLink>
-        <a
-          href="https://nuxtjs.org/blog/creating-blog-with-nuxt-content"
-          class="mr-8 self-center text-white font-bold hover:underline"
-        >
-          Tutorial
-        </a>
         <AppSearchInput />
       </div>
     </div>
@@ -66,8 +53,6 @@
       </nav>
       <!-- content from markdown -->
       <nuxt-content :document="article" />
-      <!-- content author component -->
-      <author :author="article.author" />
       <!-- prevNext component -->
       <PrevNext :prev="prev" :next="next" class="mt-8" />
     </div>
