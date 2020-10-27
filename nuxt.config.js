@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'I am Wes Wilson',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -29,7 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/main.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -48,7 +48,10 @@ export default {
     // '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxtjs/svg',
+    '@nuxtjs/color-mode'
   ],
   /*
    ** Nuxt.js modules
@@ -66,8 +69,7 @@ export default {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
-    },
-    nestedProperties: ['author.name']
+    }
   },
   /*
    ** Build configuration

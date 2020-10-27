@@ -7,13 +7,16 @@
 module.exports = {
   theme: {
     screens: {
-      xs: '320px',
+      xs: '480px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
       xxlmin: '1351px',
       xxlmax: { max: '1350px' }
+    },
+    container: {
+      padding: '2rem'
     },
     fontFamily: {
       display: ['Quicksand', 'sans-serif'],
