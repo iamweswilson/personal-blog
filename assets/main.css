@@ -1,0 +1,41 @@
+:root {
+  --color: #162c40;
+  --color-primary: #f24949;
+  --color-secondary: #162c40;
+  --bg: #f3f5f4;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+}
+
+.dark-mode {
+  --color: #ebf4f1;
+  --color-primary: #f24949;
+  --color-secondary: #fdf9f3;
+  --bg: #162c40;
+  --bg-secondary: #071521;
+  --border-color: #0d2538;
+}
+.sepia-mode {
+  --color: #433422;
+  --color-secondary: #504231;
+  --bg: #f1e7d0;
+  --bg-secondary: #eae0c9;
+  --border-color: #ded0bf;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+a {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+hr {
+  border-color: var(--color-secondary);
+  opacity: 0.3;
+}
+section {
+  margin: 4rem 0;
+}
