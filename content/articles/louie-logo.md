@@ -1,6 +1,6 @@
 ---
-title: Louie
-description: An exercise in creatitivy
+title: "Daily exercise: A Logo for Louie"
+description: The start of an exercise to spur creatitivy
 img: /img/louie-logo.png
 alt: Louie
 ---
