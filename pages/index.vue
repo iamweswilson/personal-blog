@@ -6,20 +6,20 @@
         <HomeAbout />
         <hr>
         <section>
-          <h2>Thoughts & Designs & Other Stuff</h2>
+          <h2>Thoughts, designs & other stuff</h2>
           <ul class="flex flex-wrap">
             <li
               v-for="article of articles"
               :key="article.slug"
-              class="xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
+              class="mt-3 xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
             >
               <NuxtLink
                 :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-                class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
+                class="flex h-full transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col overflow-hidden"
               >
                 <img
                   v-if="article.img"
-                  class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
+                  class="md:h-64 lg:h-32 xl:32 xxl:h-full xxlmin:w-1/2 xxlmax:w-full object-cover post-img"
                   :src="article.img"
                 />
 
@@ -59,13 +59,11 @@ export default {
 </script>
 
 <style class="postcss">
-p {
-  margin: 2rem 0;
-}
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 .article-card {
   border-radius: 8px;
@@ -74,7 +72,14 @@ h2 {
   background-color: #fff;
   border-radius: 8px;
 }
-.article-card img div {
-  border-radius: 8px 0 0 8px;
+@media (max-width:767px) {
+  .post-img {
+    max-height: 20rem;
+  } 
+}
+@media (min-width:1350px) {
+  .post-img {
+    height: 100%;
+  } 
 }
 </style>
