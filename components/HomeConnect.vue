@@ -6,6 +6,7 @@
     <p><a href="https://www.instagram.com/iamweswilson" target="_blank">Instagram</a></p>
     <p><a href="https://www.facebook.com/iamweswilson/" target="_blank">Facebook</a></p>
     <p><a href="https://www.linkedin.com/in/iamweswilson/" target="_blank">LinkedIn</a></p>
+    <p><a href="https://dribbble.com/iamweswilson" target="_blank">Dribbble</a></p>
     <p><a href="https://github.com/iamweswilson" target="_blank">Github</a></p>
   </section>
 </template>
