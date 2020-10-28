@@ -7,7 +7,7 @@
             <!-- <h1 class="text-6xl font-bold">{{ article.title }}</h1> -->
           <div>
             <p class="updated mt-12 mb-2 text-sm font-bold">
-              {{ formatDate(article.updatedAt) }}
+              {{ formatDate(article.created) }}
             </p>
             <h1 class="font-extrabold text-4xl leading-9 mb-4">{{ article.title }}</h1>
             
@@ -74,13 +74,6 @@ export default {
 }
 </script>
 <style>
-.icon.icon-link {
-  background-image: url('~assets/svg/icon-hashtag.svg');
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
-}
 .article-text {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;;
 }
