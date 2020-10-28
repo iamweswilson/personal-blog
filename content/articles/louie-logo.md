@@ -3,6 +3,7 @@ title: "Daily exercise: A Logo for Louie"
 description: The start of an exercise to spur creatitivy
 img: /img/louie-logo.png
 alt: Louie
+created: "2020-10-26T10:58:51.640Z"
 ---
 
 I feel like I've been in a creative funk for a while now. Work has been fulfilling, but I've found that I've been missing that rewarding feeling that comes from creating something from nothing. So I decided to set aside a little bit of time for myself to create 'something' every day. I'm calling these 'Daily Exercises' and posting them as a way to hold myself accountable. Not all things will be published daily, but this should help me keep the exercise top of mind.
