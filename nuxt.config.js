@@ -50,15 +50,18 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxtjs/svg',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/svg'
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/redirect-module'
+  ],
+  redirect: [
+    // { from: '^/old', to: '/new' } Example redirect
   ],
   /*
    ** Content module configuration
