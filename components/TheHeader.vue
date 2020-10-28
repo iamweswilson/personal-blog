@@ -1,11 +1,6 @@
 <template>
   <header class="grid grid-rows-1 grid-flow-col gap-4">
-    <h1>
-      <NuxtLink to="/">
-      Wes Wilson
-      </NuxtLink>
-    </h1>
-    <!-- <NuxtLink to="/"><Logo class="mb-4" /></NuxtLink> -->
+    <NuxtLink to="/"><Logo class="mb-4" /></NuxtLink>
     <!-- <AppSearchInput class="ml-8" /> -->
     <div class="col-end-4">
       <ColorModePicker />
