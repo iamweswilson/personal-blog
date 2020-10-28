@@ -5,9 +5,9 @@ img: /img/louie-logo.png
 alt: Louie
 ---
 
-I feel like I've been in a creative funk for a while now. Work has been fulfilling, but I've found that I've been missing that rewarding feeling that comes from creating something from nothing. So I decided to set aside a little bit of time for myself to create 'something' every day. The first exercise in creativity was to design a logo for my dog. Louie is a 2-year old frech bulldog with an excellent personality. 
+I feel like I've been in a creative funk for a while now. Work has been fulfilling, but I've found that I've been missing that rewarding feeling that comes from creating something from nothing. So I decided to set aside a little bit of time for myself to create 'something' every day. I'm calling these 'Daily Exercises' and posting them as a way to hold myself accountable. Not all things will be published daily, but this should help me keep the exercise top of mind.
 
-Here he is wearing a tutu, reminding everyone to vote.
+The first exercise in creativity was to design a logo for my dog. Louie is a 2-year old frech bulldog with an excellent personality. Here he is wearing a tutu, reminding everyone to vote.
 
 ![Louie in costume](/img/louie-vote.jpeg)
 
