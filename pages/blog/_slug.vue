@@ -43,9 +43,11 @@
             <nuxt-content :document="article" class="article-text mb-12"/>
             <!-- prevNext component -->
             <hr />
-            <PrevNext :prev="prev" :next="next" class="mt-12" />
+            <PrevNext :prev="prev" :next="next" class="mt-12 mb-12" />
           </div>
         </article>
+        <hr>
+        <TheFooter />
       </div>
     </div>
   </div>
