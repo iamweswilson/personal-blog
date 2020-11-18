@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: Ode to the french press"
+title: "Ode to the french press"
 description: Giving coffee the worship it deserves
 img: /img/french-press.jpg
 alt: French Press

@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: A Logo for Louie"
+title: "A Logo for Louie"
 description: The start of an exercise to spur creatitivy
 img: /img/louie-logo.png
 alt: Louie

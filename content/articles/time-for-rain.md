@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: Time for rain"
+title: "Time for rain"
 description: The rain has started in Oregon
 img: /img/time-for-rain.jpg
 alt: Time for Oregon rain

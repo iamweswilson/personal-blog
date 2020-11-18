@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: We Are OpenInfra"
+title: "We Are OpenInfra"
 description: Celebrating OIF launch with some retro-ness
 img: /img/openinfra-retro.jpg
 alt: We Are OpenInfra

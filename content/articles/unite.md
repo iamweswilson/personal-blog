@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: Unite"
+title: "Unite"
 description: Hopefully we can all come together
 img: /img/unite-dark.jpg
 alt: Unite
