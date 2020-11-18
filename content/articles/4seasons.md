@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: The wrong 4 Seasons"
+title: "The wrong 4 Seasons"
 description: Uhh... This is Total Landscaping
 img: /img/4seasons.jpg
 alt: 4 Seasons

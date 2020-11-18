@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: WES logo"
+title: "WES logo"
 description: Creating an identity for myself 
 img: /img/wes.png
 alt: Wes

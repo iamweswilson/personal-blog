@@ -1,5 +1,5 @@
 ---
-title: "Daily exercise: Please Vote"
+title: "Please Vote"
 description: Practicing typography and illustration 
 img: /img/please-vote.jpg
 alt: Please vote
