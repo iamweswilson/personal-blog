@@ -1,7 +1,7 @@
 ---
 title: "Time for rain"
 description: The rain has started in Oregon
-img: /img/time-for-rain.jpg
+img: /img/time-for-rain.jpg?nf_resize=fit&w=751&h=563
 alt: Time for Oregon rain
 created: "2020-11-03T10:58:51.640Z"
 ---

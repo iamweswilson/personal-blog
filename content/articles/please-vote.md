@@ -1,7 +1,7 @@
 ---
 title: "Please Vote"
 description: Practicing typography and illustration 
-img: /img/please-vote.jpg
+img: /img/please-vote.jpg?nf_resize=fit&w=751&h=563
 alt: Please vote
 created: "2020-10-27T10:58:51.640Z"
 ---

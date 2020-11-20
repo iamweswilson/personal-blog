@@ -1,7 +1,7 @@
 ---
 title: "Unite"
 description: Hopefully we can all come together
-img: /img/unite-dark.jpg
+img: /img/unite-dark.jpg?nf_resize=fit&w=751&h=563
 alt: Unite
 created: "2020-11-07T10:58:51.640Z"
 ---

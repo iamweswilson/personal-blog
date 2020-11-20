@@ -1,7 +1,7 @@
 ---
 title: "Spedagogy"
 description: Workload management for special education providers. From spreadsheet to software
-img: /img/spedagogy-single.jpg
+img: /img/spedagogy-single.jpg?nf_resize=fit&w=751&h=563
 alt: Spedagogy
 created: "2020-11-04T10:58:51.640Z"
 ---

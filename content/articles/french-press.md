@@ -1,7 +1,7 @@
 ---
 title: "Ode to the french press"
 description: Giving coffee the worship it deserves
-img: /img/french-press.jpg
+img: /img/french-press.jpg?nf_resize=fit&w=751&h=563
 alt: French Press
 created: "2020-10-30T10:58:51.640Z"
 ---

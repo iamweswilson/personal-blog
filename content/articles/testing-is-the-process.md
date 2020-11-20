@@ -1,7 +1,7 @@
 ---
 title: "Testing is the process"
 description: Recognizing failure is a part of the process 
-img: /img/testing.png
+img: /img/testing.png?nf_resize=fit&w=751&h=563
 alt: Testing is the process
 created: "2020-11-18T10:58:51.640Z"
 ---

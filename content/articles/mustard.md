@@ -1,7 +1,7 @@
 ---
 title: "Mustard"
 description: Learnings from Draplin
-img: /img/mustard.jpg
+img: /img/mustard.jpg?nf_resize=fit&w=751&h=563
 alt: Mustard
 created: "2020-10-29T10:58:51.640Z"
 ---

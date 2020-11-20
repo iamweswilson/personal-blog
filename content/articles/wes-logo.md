@@ -1,7 +1,7 @@
 ---
 title: "WES logo"
 description: Creating an identity for myself 
-img: /img/wes.png
+img: /img/wes.png?nf_resize=fit&w=751&h=563
 alt: Wes
 created: "2020-10-28T10:58:51.640Z"
 ---
