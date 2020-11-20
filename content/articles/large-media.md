@@ -1,7 +1,7 @@
 ---
 title: "Netlify Large Media"
 description: Integrating Git LFS to my site with Netlify
-img: /img/large-media.png?nf_resize=fit&w=751&h=563
+img: /img/large-media.jpg?nf_resize=fit&w=751&h=563
 alt: Netlify Large Media
 created: "2020-11-20T10:58:51.640Z"
 ---
