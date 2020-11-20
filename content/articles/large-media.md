@@ -23,12 +23,13 @@ brew install git-lfs
 ```
 
 **Step 2:** 
-Set up git LFS for my user account. This is where I hit my first bump. 
+Set up Git LFS for my user account. This is where I hit my first bump. 
+Error received:
 ```
 Hook already exists: pre-push
 ```
 
-I don’t have a lot of experience with hooks, but understand the basic premise. As far as I knew, I didn’t have any hooks on my site. I did a little digging and found that [husky](https://www.npmjs.com/package/husky) set up some initial hook files in  `.git` , which would allow me to easily set up and run hooks through `package.json`. I haven’t used that feature yet, so allowed Git LFS to override my hooks. This could have caused problems that I'm not aware of, but this is how I learn.
+I don’t have a lot of experience with hooks, but understand the basic premise. As far as I knew, I didn’t have any hooks on my site. I did a little digging and found that [husky](https://www.npmjs.com/package/husky) set up some initial hook files in the `.git` folder, which would allow me to easily set up and run hooks through `package.json`. I haven’t used that feature yet, so allowed Git LFS to override my hooks. This could have caused problems that I'm not aware of, but I went with it because this is how I learn.
 ```
 git lfs update --force
 ```
@@ -42,10 +43,10 @@ git lfs track "*.jpeg”
 ```
 
 **Step 4:** 
-Not that things are tracking correctly, I committed the changes and let Netlify deploy. Then the next error.
+Now that things are tracking correctly, I committed the changes and let Netlify deploy. Then the next error.
 
 **Step 5:** 
-Tell Netlify that I want to use Git LFS.  The deploy failed quickly, throwing an error of `error: external filter ‘git-lfs filter-process’ failed`. Some googling led me to [Netlify’s community forums](https://community.netlify.com/t/builds-fail-after-new-commit-to-git-lfs/1362/7). This was an easy fix… log into Netlify, go to /Settings > Build & deploy > Environment > Environment variables/ and /Edit Variables/. Then set `GIT_LFS_ENABLED` to `true`.
+~~Tell Netlify that I want to use Git LFS.  The deploy failed quickly, throwing an error of `error: external filter ‘git-lfs filter-process’ failed`. Some googling led me to [Netlify’s community forums](https://community.netlify.com/t/builds-fail-after-new-commit-to-git-lfs/1362/7). This was an easy fix… log into Netlify, go to /Settings > Build & deploy > Environment > Environment variables/ and /Edit Variables/. Then set `GIT_LFS_ENABLED` to `true`.~~
 
 **Step 5a:** 
 I realized later that I forgot to install Netlify LM plugin, which counters step 5 down the road. Sorry for the confusion, thanks for going along for the ride with me.
@@ -64,7 +65,8 @@ Your requirements are in place, time to setup. [Netlify setup docs](https://docs
 One item to note here is that you’ll need to migrate any files you’ve previously committed in your repo so they are moved to LFS.
 
 **PT 1:** 
-I made the mistake of running `git lfs migrate import` without any optional flags, which converted EVERY FILE.  
+I made the mistake of running `git lfs migrate import` without any optional flags, which converted EVERY FILE. This might have been an error only on my end, but I don't recommend it. 
+DON'T DO THIS without flags:
 ```
 git lfs migrate import
 ```
