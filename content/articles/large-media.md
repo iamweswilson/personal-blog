@@ -1,6 +1,6 @@
 ---
-title: "Integrating Netlify Large Media"
-description: Adding Git LFS to this site
+title: "Setting up Netlify Large Media"
+description: Adding Git LFS
 img: /img/large-media.jpg?nf_resize=fit&w=751&h=563
 alt: Netlify Large Media
 created: "2020-11-20T10:58:51.640Z"
