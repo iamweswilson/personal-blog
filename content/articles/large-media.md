@@ -11,9 +11,9 @@ I noticed this morning that the images on my homepage were lagging a smidge. Not
 I decided to integrate [Netlify Large Media](https://docs.netlify.com/large-media/overview/), their server-side support for [Git LFS](https://git-lfs.github.com/) combined with their image transform service.  If it goes as planned, I'll serve images at the sizes needed, instead of having css shrink larger images, which is normally my go-to. 
 
  ## Installation
- As you’ve come to expect, [Netlify’s Large media docs](https://docs.netlify.com/large-media/requirements-and-limitations/#requirements) are thorough. There are some requirements before installing. I found most of the Netlify requirements were filled, primarily because I’ve been using Netlify for CD (continuous deployment). Netlify CLI was the only requirement I didn’t have, but installation was easy peasy. 
+ As you’ve come to expect, [Netlify’s Large media docs](https://docs.netlify.com/large-media/requirements-and-limitations/#requirements) are quite thorough. Phew! There are some requirements before installing, but I found most of them were filled already by having CD (continuous deployment) turned on. Netlify CLI was the only requirement I didn’t have, but installation was easy peasy. 
 
- I ran into a couple of bumps that weren’t addressed in their docs, so I’m sharing them here. For context, my site is based on the [Nuxt Content example](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/).
+ I ran into a couple of bumps along the way, so I’m sharing them here in case they help anyone else in their journey. For context, my site is based on the [Nuxt Content example](https://nuxtjs.org/blog/creating-blog-with-nuxt-content/).
 
  ### Step 1:
  Installing Git LFS. No problems there.
