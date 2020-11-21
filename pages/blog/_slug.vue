@@ -75,11 +75,33 @@ export default {
   }
 }
 </script>
-<style>
+  
+<style lang="postcss">
 .article-text {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.article-text h2 {
+  font-size: 1.6em;
+  text-transform: none;
+  margin-top: 2rem;
+}
+.article-text h3 {
+  font-size: 1.2em;
+  text-transform: none;
+  font-weight: bold;
+  margin-top: 2rem;
 }
 .updated {
   color: var(--color-secondary);
+}
+code {
+  background-color: var(--code);
+  padding: 0.2rem;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: var(--color);
+}
+pre code {
+  background-color: var(--pre);
 }
 </style>
