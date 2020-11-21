@@ -99,9 +99,10 @@ code {
   padding: 0.2rem;
   border-radius: 4px;
   font-size: 0.8em;
-  color: var(--color);
+  color: var(--code-color);
 }
 pre code {
   background-color: var(--pre);
+  color: var(--pre-color);
 }
 </style>
