@@ -1,5 +1,5 @@
 ---
-title: "Integrating Netlify Large Media"
+title: "Mistakesi made integrating Netlify Large Media"
 description: Adding Git LFS to this site
 img: /img/large-media.jpg?nf_resize=fit&w=751&h=563
 alt: Netlify Large Media
