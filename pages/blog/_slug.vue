@@ -96,13 +96,23 @@ export default {
 }
 code {
   background-color: var(--code);
-  padding: 0.2rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 4px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: var(--code-color);
 }
 pre code {
   background-color: var(--pre);
   color: var(--pre-color);
+  font-size: 0.8em;
+}
+ul {
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
+li {
+  list-style-type: disc;
+  font-size: 1.3em;
+  margin-bottom: 0.5rem;
 }
 </style>
