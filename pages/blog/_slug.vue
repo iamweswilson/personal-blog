@@ -106,11 +106,11 @@ pre code {
   color: var(--pre-color);
   font-size: 0.8em;
 }
-ul {
+.article-text ul {
   padding-left: 1rem;
   margin: 2rem 0;
 }
-li {
+.article-text ul li {
   list-style-type: disc;
   font-size: 1.3em;
   margin-bottom: 0.5rem;
