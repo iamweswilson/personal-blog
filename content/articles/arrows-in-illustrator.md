@@ -1,7 +1,7 @@
 ---
 title: "Working with stars in Illustrator"
 description: A handful of starry "pointers"
-img: /img/stars/star-tips.jpg?nf_resize=fit&w=751&h=563
+img: /img/stars/star-tips.png?nf_resize=fit&w=751&h=563
 alt: Working with stars in Illustrator
 created: "2020-11-30T10:58:51.640Z"
 ---
