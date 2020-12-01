@@ -41,6 +41,26 @@
             </nav> -->
             <!-- content from markdown -->
             <nuxt-content :document="article" class="article-text mb-12"/>
+            <!-- Comment form -->
+            <form netlify name="comments-queue" action="/thanks">
+              <input name="path" type="hidden" :value="article.slug">
+              <p>
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name">
+              </p>
+              <p>
+                <label for="email">Your email</label>
+                <input type="email" name="email" id="email">
+              </p>
+              <p>
+                <label for="comment">Your comment</label>
+                <textarea name="comment" id="comment"></textarea>
+              </p>
+              <p>
+                <button type="submit">Post your comment</button>
+              </p>
+            </form>
+
             <!-- prevNext component -->
             <hr />
             <PrevNext :prev="prev" :next="next" class="mt-12 mb-12" />
