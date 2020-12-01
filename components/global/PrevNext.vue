@@ -36,9 +36,9 @@
     border-radius: 2px;
     padding: 1px;
     font-size: 1em;
-  }
-  @media (max-width: 468px) {
-    .shortcut {display: none;}
+    @media (max-width: 468px) {
+      display: none;
+    }
   }
 </style>
 

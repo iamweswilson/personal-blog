@@ -76,23 +76,32 @@ export default {
 }
 </script>
   
-<style lang="postcss">
+<style lang="scss">
 .article-text {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-.article-text h2 {
-  font-size: 1.6em;
-  text-transform: none;
-  margin-top: 2rem;
-}
-.article-text h3 {
-  font-size: 1.2em;
-  text-transform: none;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-.article-text img {
-  margin: 4rem 0;
+  img {
+    margin: 4rem 0;
+  }
+  h2 {
+    font-size: 1.6em;
+    text-transform: none;
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 1.2em;
+    text-transform: none;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  ul {
+    padding-left: 1rem;
+    margin: 2rem 0;
+    li {
+        list-style-type: disc;
+        font-size: 1.3em;
+        margin-bottom: 0.5rem;
+      }
+  }
 }
 .updated {
   color: var(--color-secondary);
@@ -104,18 +113,11 @@ code {
   font-size: 0.7em;
   color: var(--code-color);
 }
-pre code {
-  background-color: var(--pre);
-  color: var(--pre-color);
-  font-size: 0.8em;
-}
-.article-text ul {
-  padding-left: 1rem;
-  margin: 2rem 0;
-}
-.article-text ul li {
-  list-style-type: disc;
-  font-size: 1.3em;
-  margin-bottom: 0.5rem;
+pre {
+  code {
+    background-color: var(--pre);
+    color: var(--pre-color);
+    font-size: 0.8em;
+  }
 }
 </style>
