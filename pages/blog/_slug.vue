@@ -91,6 +91,9 @@ export default {
   font-weight: bold;
   margin-top: 2rem;
 }
+.article-text img {
+  margin: 4rem 0;
+}
 .updated {
   color: var(--color-secondary);
 }

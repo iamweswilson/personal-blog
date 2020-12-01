@@ -37,6 +37,9 @@
     padding: 1px;
     font-size: 1em;
   }
+  @media (max-width: 468px) {
+    .shortcut {display: none;}
+  }
 </style>
 
 <script>
