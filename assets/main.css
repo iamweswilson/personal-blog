@@ -51,3 +51,6 @@ hr {
 section {
   margin: 4rem 0;
 }
+strong {
+  font-weight: bold;
+}
