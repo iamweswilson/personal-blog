@@ -42,12 +42,7 @@
 
 <style lang="scss" scoped>
   .feature-wrapper {
-    max-height: 350px;
-    overflow: hidden;
     transition: all 500ms ease;
-    @media (max-width: 640px) {
-      height: auto;
-    }
   }
   .least {
     ul {
