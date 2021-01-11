@@ -19,8 +19,8 @@
             </div>
           </section>
           <div>
-            <p>As you can see, the desired focus you set would dictate colors, icons, and text placement. On a live page, the level of importance would likley also change this component's placement on the page. </p>
-            <p>Related, but not shown in this exercise, is that giving more focus to one component would in turn reduce the focus to another epsecially if the components are within the same viewport.</p>
+            <p>As you can see, the desired focus you set would dictate colors, icons, and text placement. In practice, the desired focus would likely also change this component's placement on the page (which does NOT imply anything needing focus should be above the fold. That's a post for another time.)</p>
+            <p>Related, but not shown in this exercise, is that giving more focus to one component would in turn reduce the focus to another, especially if the components are within the same viewport.</p>
           </div>
         </div>
         <hr>
