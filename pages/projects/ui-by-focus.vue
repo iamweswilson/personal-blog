@@ -74,6 +74,10 @@
     &:focus {
       outline: none;
     }
+    @media (max-width: 640px) {
+      margin: 1rem 0.8rem;
+      font-size: 0.8em;
+    }
   }
   section {
     margin: 1rem 0 4rem;

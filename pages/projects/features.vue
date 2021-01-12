@@ -222,6 +222,7 @@
           }
           h2 {
             margin-bottom: 1rem;
+            text-transform: none;
             color: #162c40;
             transition: all 500ms ease;
           }
