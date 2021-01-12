@@ -4,10 +4,15 @@
       <div class="w-full my-8 lg:w-7/12">
         <TheHeader />
         <div class="project-inner my-8">
-          <h2>Project: Changing UI based on user's focus</h2>
-          <p>I've found the most difficult part of creating marketing pages is gaining and keeping a reader's focus. Focus can be gained through writing, design, and placement. This exercise digs into that challenge a bit, looking at how visual hierarchy, color, spacing, and type can be adjusted based on how much focus you want to bring to that component is to your page. </p>
+          <h2>Project: Adjusting UI based on intended user focus</h2>
           <p>
-            The idea is that you'd be able to quickly adjust any components to match the level of importance you perceive it having on the page. This is a fairly basic example, but let's assume you have a small "features" component on your marketing page. The content is the same across each variant, but the attention brought to the component changes based on how much focus you believe the item should get.
+            So here's the exercise... You're creating a marketing site for your product and want to include the product features. This features component is going to compete for attention with other items on the page like pricing, user stories, testimonials, customer logos, comparison charts, infographics, etc. (you get the point). You need to decide how much focus "features" should receive. Depending on what you decide, the UI for that component should change.
+          </p>
+          <p>
+            Give it a shot 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
           </p>
           <features :class="setClass" />
           <section class="text-center">
@@ -18,10 +23,9 @@
               <button @click="changeClass('most')" :class="{active: isActive == 'most'}">Maximum</button>
             </div>
           </section>
-          <div>
-            <p>As you can see, the desired focus you set would dictate colors, icons, and text placement. In practice, the desired focus would likely also change this component's placement on the page (which does NOT imply anything needing focus should be above the fold. That's a post for another time.)</p>
-            <p>Related, but not shown in this exercise, is that giving more focus to one component would in turn reduce the focus to another, especially if the components are within the same viewport.</p>
-          </div>
+          <p>
+            This is a fairly lightweight example of how UI can change based on focus, so plase don't take this as prescriptive. Either way, feel free to <a href="/blog/ui-by-focus/">read the blog post</a> to learn more.
+          </p>
         </div>
         <hr>
         <TheFooter />
@@ -80,6 +84,6 @@
     }
   }
   section {
-    margin: 1rem 0 4rem;
+    margin: 1rem 0 2rem;
   }
 </style>
