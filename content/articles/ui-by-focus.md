@@ -9,9 +9,9 @@ I've found the most difficult part of creating marketing pages is gaining and ke
 
 So here's the exercise... You're creating a marketing page for your product and want to include its features. This features component is going to compete for attention with other items on the page like pricing, user stories, testimonials, customer logos, comparison charts, infographics, etc. (you get the point). You need to decide how much focus "features" should receive. Depending on what you decide, the UI for that component should change. The idea here is that you'd be able to quickly adjust any components to match the level of focus you want it to have on the page.
 
-Give it a shot.
-
 <by-focus></by-focus>
+
+Go on, give it a shot. Just click one of the buttons. ☝️
 
 As you can see, the desired focus you set would dictate colors, icons, and text placement. The content is the same across each variant, but the attention brought to the component changes based on how much focus you believe the item should get. It makes sense on a micro level, but in practice, the desired focus would likely also change this component's placement on the page to have a full effect.
 
