@@ -62,6 +62,10 @@ export default {
   ],
   redirect: [
     // { from: '^/old', to: '/new' } Example redirect
+    {
+      from: '/projects/ui-by-focus',
+      to: '/blog/ui-by-focus'
+    }
   ],
   /*
    ** Content module configuration
