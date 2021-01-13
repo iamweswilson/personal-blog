@@ -1,6 +1,6 @@
 <template>
   <div>
-    <features :class="setClass" />
+    <uifeatures :class="setClass" />
     <section class="text-center">
       <h3 class="font-medium mt-12">How much focus do you want to give this component on your page?</h3>
       <div class="block">
@@ -13,10 +13,10 @@
 </template>
 
 <script>
-  import features from './features.vue'
+  import uifeatures from './UIFeatures.vue'
   export default {
     name: 'ByFocus',
-    components: { features },
+    components: { uifeatures },
     props: [
       'buttonValue',
     ],
