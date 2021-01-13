@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/projects/ui-by-focus"
+  to = "/blog/ui-by-focus"
+  status = 301
+  force = true
