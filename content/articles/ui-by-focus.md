@@ -19,4 +19,6 @@ Also related, but not shown in this exercise, is that giving more focus to one c
 
 Perhaps this is something that can be useful to designers or non-designers at some point in the future. Perhaps it just dies here as a fun exercise in UX using JS and CSS.
 
-Credit: This idea came out of some brainstorming with [Todd Morey](https://twitter.com/toddmorey) who shares a similar mindset around UI, design, and dad jokes.
+<h3>Credits:</h3>
+<p>This idea was spawn from some brainstorming with <a href="https://twitter.com/toddmorey">Todd Morey</a> who shares a similar mindset around UI, design, dad jokes, and the <a href="https://spurs.com">Spurs</a>.</p>
+<p>The main image (fingerprint icon) is from <a href="https://heroicons.com">heroicons</a></p>
