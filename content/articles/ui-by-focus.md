@@ -5,15 +5,15 @@ img: /img/ui-by-focus.png?nf_resize=fit&w=751&h=563
 alt: Adjusting UI based on intended focus
 created: "2021-01-12T10:58:51.640Z"
 ---
-[See the project](/projects/ui-by-focus)
-
 I've found the most difficult part of creating marketing pages is gaining and keeping a reader's focus. Focus can be gained through writing, design, and placement. This exercise digs into that challenge a bit, looking at how visual hierarchy, color, spacing, and type can be adjusted based on how much focus you want to bring to that component is to your page.
 
 The idea is that you'd be able to quickly adjust any components to match the level of importance you perceive it having on the page. This is a fairly basic example, but let's assume you have a small "features" component on your marketing page. The content is the same across each variant, but the attention brought to the component changes based on how much focus you believe the item should get.
 
-![Example of this project](/img/ui-by-focus-demo-gif.gif?nf_resize=fit&w=751&h=563)
+So here's the exercise... You're creating a marketing site for your product and want to include the product features. This features component is going to compete for attention with other items on the page like pricing, user stories, testimonials, customer logos, comparison charts, infographics, etc. (you get the point). You need to decide how much focus "features" should receive. Depending on what you decide, the UI for that component should change.
 
-[Try out the working demo](/projects/ui-by-focus)
+Give it a shot 
+
+<by-focus></by-focus>
 
 As you can see, the desired focus you set would dictate colors, icons, and text placement. In practice, the desired focus would likely also change this component's placement on the page (which does NOT imply anything needing focus should be above the fold. That's a post for another time.)
 

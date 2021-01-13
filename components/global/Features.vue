@@ -1,5 +1,5 @@
 <template>
-  <div class="feature-wrapper mt-12 mb-1 rounded-xl bg-white py-16 px-8 shadow-2xl items-center">
+  <div class="feature-wrapper mt-12 mb-1 rounded-xl bg-white p-6 shadow-2xl items-center">
     <ul>
       <li>
         <div class="title fast">
@@ -36,13 +36,15 @@
 
 <script>
   export default {
-    name: 'importance'
+    name: 'Features'
   }
 </script>
 
 <style lang="scss" scoped>
   .feature-wrapper {
     transition: all 500ms ease;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 12px;
   }
   .least {
     ul {
@@ -69,6 +71,8 @@
           text-transform: none;
           margin-bottom: 0.1rem;
           padding-right: 0;
+          margin-top: 0;
+          padding-top: 0;
           transition: all 500ms ease;
         }
         p {
@@ -165,6 +169,7 @@
             font-size: 1em;
             text-transform: none;
             margin-bottom: 0;
+            margin-top: 0;
             transition: all 500ms ease;
           }
         }
@@ -225,6 +230,7 @@
             text-transform: none;
             color: #162c40;
             transition: all 500ms ease;
+            margin-top: 0;
           }
         }
         p {
