@@ -67,6 +67,9 @@ export default {
       to: '/blog/ui-by-focus'
     }
   ],
+  generate: {
+    fallback: "404.html"
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
