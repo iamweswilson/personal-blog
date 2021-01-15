@@ -2,7 +2,7 @@
   <div>
     <div class="container mx-auto">
       <div class="flex justify-center">
-        <div class="my-8 w-full lg:w-8/12">
+        <div class="my-8 w-full lg:w-7/12">
           <TheHeader />
           <Nuxt />
           <hr>
