@@ -19,7 +19,7 @@
               >
                 <img
                   v-if="article.img"
-                  class="md:h-64 lg:h-32 xl:32 xxl:h-full xxlmin:w-1/2 xxlmax:w-full object-cover post-img"
+                  class="md:h-64 h-auto xxlmin:w-1/2 xxlmax:w-full object-cover post-img"
                   :src="article.img"
                 />
 
