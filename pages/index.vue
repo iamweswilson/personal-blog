@@ -1,8 +1,5 @@
 <template>
-  <div class="container mx-auto">
-    <div class="flex justify-center">
-      <div class="my-8 w-full lg:w-8/12">
-        <TheHeader />
+  <div>
         <HomeAbout />
         <hr>
         <section>
@@ -37,10 +34,6 @@
       </section>
         <hr>
         <HomeConnect />
-        <hr>
-        <TheFooter />
-      </div>
-    </div>
   </div>
 </template>
 

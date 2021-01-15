@@ -1,55 +1,48 @@
 <template>
-  <div class="container mx-auto">
-    <div class="flex justify-center">
-      <div class="my-8 w-full lg:w-8/12">
-        <TheHeader />
-        <article>
-            <!-- <h1 class="text-6xl font-bold">{{ article.title }}</h1> -->
-          <div>
-            <p class="updated mt-12 mb-2 text-sm font-bold">
-              {{ formatDate(article.created) }}
-            </p>
-            <h1 class="font-extrabold text-4xl leading-9 mb-4">{{ article.title }}</h1>
-            
-            <img 
-              :src="article.img"
-              :alt="article.alt"
-              class="mb-12"
-            />
-            <!-- <p>{{ article.description }}</p> -->
-            <!-- table of contents -->
-            <!-- <nav class="pb-6">
-              <ul>
-                <li
-                  v-for="link of article.toc"
-                  :key="link.id"
-                  :class="{
-                    'font-semibold': link.depth === 2
-                  }"
-                >
-                  <nuxtLink
-                    :to="`#${link.id}`"
-                    class="hover:underline"
-                    :class="{
-                      'py-2': link.depth === 2,
-                      'ml-2 pb-2': link.depth === 3
-                    }"
-                    >{{ link.text }}</nuxtLink
-                  >
-                </li>
-              </ul>
-            </nav> -->
-            <!-- content from markdown -->
-            <nuxt-content :document="article" class="article-text mb-12"/>
-            <!-- prevNext component -->
-            <hr />
-            <PrevNext :prev="prev" :next="next" class="mt-12 mb-12" />
-          </div>
-        </article>
-        <hr>
-        <TheFooter />
+  <div>
+    <article>
+        <!-- <h1 class="text-6xl font-bold">{{ article.title }}</h1> -->
+      <div>
+        <p class="updated mt-12 mb-2 text-sm font-bold">
+          {{ formatDate(article.created) }}
+        </p>
+        <h1 class="font-extrabold text-4xl leading-9 mb-4">{{ article.title }}</h1>
+        
+        <img 
+          :src="article.img"
+          :alt="article.alt"
+          class="mb-12"
+        />
+        <!-- <p>{{ article.description }}</p> -->
+        <!-- table of contents -->
+        <!-- <nav class="pb-6">
+          <ul>
+            <li
+              v-for="link of article.toc"
+              :key="link.id"
+              :class="{
+                'font-semibold': link.depth === 2
+              }"
+            >
+              <nuxtLink
+                :to="`#${link.id}`"
+                class="hover:underline"
+                :class="{
+                  'py-2': link.depth === 2,
+                  'ml-2 pb-2': link.depth === 3
+                }"
+                >{{ link.text }}</nuxtLink
+              >
+            </li>
+          </ul>
+        </nav> -->
+        <!-- content from markdown -->
+        <nuxt-content :document="article" class="article-text mb-12"/>
+        <!-- prevNext component -->
+        <hr />
+        <PrevNext :prev="prev" :next="next" class="mt-12 mb-12" />
       </div>
-    </div>
+    </article>
   </div>
 </template>
 <script>

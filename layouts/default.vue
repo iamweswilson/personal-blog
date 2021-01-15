@@ -1,6 +1,15 @@
 <template>
   <div>
-    <Nuxt />
+    <div class="container mx-auto">
+      <div class="flex justify-center">
+        <div class="my-8 w-full lg:w-8/12">
+          <TheHeader />
+          <Nuxt />
+          <hr>
+          <TheFooter />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
