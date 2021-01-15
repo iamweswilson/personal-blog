@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <div class="flex justify-center">
-      <div class="w-full my-8 md:w-9/12 lg:w-8/12">
+      <div class="my-8 w-full lg:w-8/12">
         <TheHeader />
         <HomeAbout />
         <hr>
