@@ -1,22 +1,15 @@
 <template>
-  <div class="flex flex-col container mx-auto">
-    <div class="flex justify-center">
-      <div class="w-full my-8 lg:w-7/12">
-        <TheHeader />
-        <section class="my-24 text-center">
-          <div v-if="error.statusCode === 404">
-            <h1>404</h1>
-            <p>This is not the page you were looking for...</p>
-          </div>
-          <div v-else>
-            <h1>Uh oh</h1>
-            <p>An error occurred</p>
-          </div>
-        </section>
-        <hr>
-        <TheFooter />
+  <div>
+    <section class="my-24 text-center">
+      <div v-if="error.statusCode === 404">
+        <h1>404</h1>
+        <p>Looks like the url you tried to find isn't actually a url. Could be my fault, could be yours. If it's mine, please <a href="mailto:wes@iamweswilson.com?subject=I found a broken link!">let me know</a> so I can fix it.</p>
       </div>
-    </div>
+      <div v-else>
+        <h1>Uh oh</h1>
+        <p>An error occurred</p>
+      </div>
+    </section>
   </div>
 </template>
 
