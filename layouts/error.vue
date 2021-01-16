@@ -1,29 +1,34 @@
 <template>
-  <div class="flex flex-col container mx-auto">
-    <div class="flex justify-center">
-      <div class="w-full my-8 lg:w-7/12">
-        <TheHeader />
-        <section class="my-24 text-center">
-          <div v-if="error.statusCode === 404">
-            <h1>404</h1>
-            <p>This is not the page you were looking for...</p>
-          </div>
-          <div v-else>
-            <h1>Uh oh</h1>
-            <p>An error occurred</p>
-          </div>
-        </section>
-        <hr>
-        <TheFooter />
+  <div>
+    <section class="my-24 text-center">
+      <div v-if="error.statusCode === 404">
+        <h1>404</h1>
+        <p>Looks like the url you tried to find isn't actually a url. Could be my fault, could be yours. If you ended up on this page by clicking on a link somewhere, please 
+        <a :href="'mailto:' +  'wes@iamweswilson.com?subject=I found a broken link!&body=Hey Wes, I found a broken link at' + '' + currentURL">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 inline">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          let me know
+        </a> so I can fix it.</p>
       </div>
-    </div>
+      <div v-else>
+        <h1>Uh oh</h1>
+        <p>An error occurred</p>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
   export default {
     props: ['error'],
-    layout: 'default' // you can set a custom layout for the error page
+    layout: 'default', // you can set a custom layout for the error page
+    computed: {
+      currentURL: function() {
+        return this.$route.fullPath
+      }
+    }
   }
 </script>
 
