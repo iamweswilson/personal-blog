@@ -47,17 +47,24 @@
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
-    const [prev, next] = await $content('articles')
-      .only(['title', 'slug'])
-      .sortBy('created', 'asc')
-      .surround(params.slug)
-      .fetch()
-    return {
-      article,
-      prev,
-      next
+  async asyncData({ $content, params, error }) {
+    try {
+      const article = await $content('articles', params.slug).fetch()
+      const [prev, next] = await $content('articles')
+        .only(['title', 'slug'])
+        .sortBy('created', 'asc')
+        .surround(params.slug)
+        .fetch()
+      return {
+        article,
+        prev,
+        next
+      }
+    } catch(err) {
+      error({
+        statusCode: 404,
+        message: 'Page could not be found',
+      })
     }
   },
   methods: {
