@@ -114,10 +114,18 @@ code {
   color: var(--code-color);
 }
 pre {
+  border-radius: 0.5rem;
   code {
     background-color: var(--pre);
     color: var(--pre-color);
     font-size: 0.8em;
   }
+}
+blockquote {
+  border-left: 2px solid var(--color-primary);
+  padding-left: 1.5rem;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 3rem 0;
 }
 </style>
