@@ -116,7 +116,7 @@ Now that I have the functionality in place, I get to do the fun stuff. I won’t
 
 ![Take one: alarming 404](/img/404-post/alarming-404.jpg?nf_resize=fit&w=751&h=563)
 
-After that feedback, I decided to close his mouth and instead make the character's head the "0" in the 404.
+After that feedback, I decided to close his mouth and instead make the character's head the "0" in the 404. ***Much better.***
 
 ![Final 404 illustration](/img/404-post/final-404.png?nf_resize=fit&w=751&h=563)
 
