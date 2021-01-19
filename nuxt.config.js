@@ -68,7 +68,7 @@ export default {
     }
   ],
   generate: {
-    fallback: "404.html"
+    fallback: true
   },
   /*
    ** Content module configuration
