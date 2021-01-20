@@ -58,6 +58,9 @@ h2 {
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
+p {
+  margin: 1rem 0 0;
+}
 .article-card {
   border-radius: 8px;
 }
