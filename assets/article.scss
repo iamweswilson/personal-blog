@@ -1,0 +1,51 @@
+.article-text {
+  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  img {
+    margin: 4rem 0;
+  }
+  h2 {
+    font-size: 1.6em;
+    text-transform: none;
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 1.4em;
+    text-transform: none;
+    font-weight: bold;
+    margin: 3rem 0 1rem;
+  }
+  ul {
+    padding-left: 1rem;
+    margin: 2rem 0;
+    li {
+      list-style-type: disc;
+      font-size: 1.3em;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+.updated {
+  color: var(--color-secondary);
+}
+code {
+  background-color: var(--code);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7em;
+  color: var(--code-color);
+}
+pre {
+  border-radius: 0.5rem;
+  code {
+    background-color: var(--pre);
+    color: var(--pre-color);
+    font-size: 0.8em;
+  }
+}
+blockquote {
+  border-left: 2px solid var(--color-primary);
+  padding-left: 1.5rem;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 3rem 0;
+}

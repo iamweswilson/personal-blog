@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style class="postcss">
+<style class="postcss" scoped>
 h2 {
   font-size: 1.2em;
   font-weight: bold;

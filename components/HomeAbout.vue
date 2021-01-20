@@ -5,9 +5,6 @@
   </section>
 </template>
 
-<style lang="postcss">
-  p {
-    font-size: 1.3em;
-    font-weight: 400;
-  }
+<style lang="postcss" scoped>
+
 </style>
