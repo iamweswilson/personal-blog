@@ -15,8 +15,8 @@
   </svg>
 </template>
 
-<style>
+<style scoped>
   .w, .e, .s {
-    fill:#f24949;
+    fill:var(--color-primary);
   }
 </style>
