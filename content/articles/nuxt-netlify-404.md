@@ -1,6 +1,6 @@
 ---
 title: "Creating 404 pages with Nuxt and Netlify"
-description: A walkthrough on setting up my 404 page
+description: A walk through on setting up my 404 page
 img: /img/404-blue.png?nf_resize=fit&w=751&h=563
 alt: Creating 404 pages with Nuxt and Netlify
 created: "2021-01-19T10:58:51.640Z"
@@ -19,7 +19,7 @@ One of the great things about Netlify is that they provide so many goodies from 
 Since I wanted to create my own custom page, I needed to take a few additional steps.
 
 ### Step 1: Create an error page
-If you don’t already have an `error.vue` layout, you’ll want to create it. By default, Nuxt displays this component anytime a non server-side renderring error occurs. So if someone runs into a 404 or a 500, this page will be displayed.
+If you don’t already have an `error.vue` layout, you’ll want to create it. By default, Nuxt displays this component anytime a non server-side rendering error occurs. So if someone runs into a 404 or a 500, this page will be displayed.
 
 The error template is rendered like any other component, meaning you can put almost anything you want in it, including `v-if` statements to tell the component what to show depending on the status code. For example, if you want to show something specific for 404 errors, you’ll use `v-if=“error.statusCode === 404”`. For example:
 
@@ -34,7 +34,7 @@ The error template is rendered like any other component, meaning you can put alm
 
 You can find more documentation on this [here](https://nuxtjs.org/docs/2.x/concepts/views/#error-page)
 
-This works flawlessly in a local environment, but when you deploy to Netlify you still get their defaul 404 page. Let's fix that.
+This works flawlessly in a local environment, but when you deploy to Netlify you still get their default 404 page. Let's fix that.
 
 ### Step 2: Tell Netlify what do when when there’s an error
 This is covered thoroughly in the [Nuxt docs](https://nuxtjs.org/faq/netlify-deployment/), so I’ll copy and paste the relevant part:
