@@ -37,6 +37,11 @@ export default (meta) => {
       content: (meta && meta.mainImage) || mainImage,
     },
     {
+      hid: "fb:app_id",
+      property: "fb:app_id",
+      content: "819522861928245"
+    },
+    {
       hid: "twitter:url",
       name: "twitter:url",
       content: (meta && meta.url) || url,
