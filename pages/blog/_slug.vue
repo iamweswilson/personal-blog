@@ -75,7 +75,7 @@ export default {
         title: this.article.title,
         description: this.article.description,
         url: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
-        mainImage: this.article.img
+        mainImage: this.article.img,
       }
       return getSiteMeta(metaData)
     }
@@ -106,7 +106,6 @@ export default {
         { name: "twitter:label1", content: "Written by" },
         { name: "twitter:data1", content: "Wes Wilson" },
         { name: "twitter:label2", content: "Filed under" },
-        { name: "twitter:image", content: this.article.img },
         {
           name: "twitter:data2",
           content: this.article.tags ? this.article.tags.toString() : "",

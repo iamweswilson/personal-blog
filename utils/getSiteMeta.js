@@ -55,6 +55,6 @@ export default (meta) => {
       hid: "twitter:image",
       name: "twitter:image",
       content: (meta && meta.mainImage) || mainImage,
-    },
+    }
   ];
 };
