@@ -56,7 +56,7 @@ Now the `error.vue` layout will be displayed for any pages on your site when dep
 Now that I had first-level pages working, I noticed anything behind the `/blog/` folder didn’t react in the same way. Instead of going to the error page, the site just broke. Not ideal. Posts are found, sorted, and fetched by `_slug.vue` . The script in that component does the dirty work, basically looking for any files within the content/articles folder:
 
 ```
-  async asyncData({ $content, params, error }) {
+  async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])
@@ -85,7 +85,7 @@ After some digging, I realized things were breaking because I didn’t tell the 
 And here’s the full function for reference. Notice the addition of of your faithful async friends: `try` and `catch`.
 
 ```
-  async asyncData({ /$content/, /params/, /error/ }) {
+  async asyncData({ $content, params, error }) {
     try {
       const article = await $content(‘articles’, params.slug).fetch()
       const [prev, next] = await $content(‘articles’)

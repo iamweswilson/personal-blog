@@ -1,3 +1,6 @@
+import getSiteMeta from './utils/getSiteMeta'
+const meta = getSiteMeta()
+
 export default {
   /*
    ** Nuxt rendering mode
@@ -16,15 +19,27 @@ export default {
   head: {
     title: 'I am Wes Wilson',
     meta: [
+      ...meta,
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
         content: 'Hi! I am Wes Wilson. I am a designer, marketer and (at times) a front-end developer.'
-      }
+      },
+      { property: "og:image:width", content: "740" },
+      { property: "og:image:height", content: "300" },
+      { name: "twitter:site", content: "@iamweswilson" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        hid: "canonical",
+        rel: "canonical",
+        href: process.env.BASE_URL,
+      },
+    ]
   },
   /*
    ** Global CSS
@@ -63,6 +78,11 @@ export default {
     '@nuxt/content',
     '@nuxtjs/redirect-module'
   ],
+  loading: {
+    // https://nuxtjs.org/docs/2.x/features/loading
+    color: '#f24949',
+    height: '5px'
+  },
   redirect: [
     // { from: '^/old', to: '/new' } Example redirect
     {

@@ -29,7 +29,7 @@
   </div>
 </template>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
   .shortcut {
     background: var(--color);
     color: var(--bg);
