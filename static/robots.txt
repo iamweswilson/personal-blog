@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: Twitterbot
+Allow: /img
+
+User-agent: facebookexternalhit
+Allow: /img
