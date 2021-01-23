@@ -2,7 +2,7 @@ const type = "website";
 const url = "https://iamweswilson.com";
 const title = "This is a post from my blog";
 const description = "If you're reading this, it means I forgot to add a description to my blog post";
-const mainImage = "/img/wes.png";
+const mainImage = "https://iamweswilson.com/img/wes.png";
 
 export default (meta) => {
   return [
