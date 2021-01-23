@@ -1,7 +1,7 @@
 ---
 title: "A Logo for Louie"
 description: The start of an exercise to spur creatitivy
-img: /img/louie-logo.png
+img: /img/louie-logo.png?nf_resize=fit&w=751&h=563
 alt: Louie
 created: "2020-10-26T10:58:51.640Z"
 ---
