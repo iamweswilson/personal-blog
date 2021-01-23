@@ -74,8 +74,8 @@ export default {
         type: "article",
         title: this.article.title,
         description: this.article.description,
-        url: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
-        mainImage: `${this.$config.baseUrl}${this.article.img}`
+        url: `https://iamweswilson.com/blog/${this.$route.params.slug}`,
+        mainImage: `https://iamweswilson.com${this.article.img}`
       }
       return getSiteMeta(metaData)
     }
