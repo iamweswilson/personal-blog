@@ -1,7 +1,9 @@
 <template>
   <section class="my-10 md:my-24 text-center">
-    <p>Hi! I am Wes Wilson. I am a designer, marketer and (at times) a front-end developer. Most of my energy goes to being the Director of Marketing for the newly minted <a href="https://openinfra.dev" target="_blank">Open Infrastructure Foundation</a> where we build  communities who write open source software that runs in production.</p>
-    <p>Previously, I founded a <a href="https://brandcrowd.com" target="_blank">start-up</a> (sold in 2011), was Director of Product at <a href="https://venturelab.org/" target="_blank">VentureLab</a>, helped build ZippyKid (now <a href="https://pressable.com" target="_blank">Pressable</a>), was a mentor for <a href="https://techstars.com/" target="_blank">Techstars</a> Cloud, and spent a few years trying to make a living as a freelance designer.</p>
+    <p>Hi! 👋 I am Wes Wilson <em>(in case you missed the url)</em>. I've been building things on the Internet for over 20 years across product, design, marketing and front-end development. </p>
+    <p>
+      Currently, I'm Director of Marketing for the newly launched <a href="https://openinfra.dev" target="_blank">OpenInfra Foundation</a> (previously OpenStack Foundation). We build communities who write open source software that runs in production, including OpenStack that powers some of the most critical Infrastructure in the world (CERN, Walmart, Tencent, and Blizzard to name a few).</p>
+    <p>Previously, I founded a <a href="https://brandcrowd.com" target="_blank">start-up</a> (acquired 2011), was Director of Product at <a href="https://venturelab.org/" target="_blank">VentureLab</a>, helped build ZippyKid (now <a href="https://pressable.com" target="_blank">Pressable</a>), was a mentor for <a href="https://techstars.com/" target="_blank">Techstars</a> Cloud, and spent a few years as a freelance designer/developer.</p>
   </section>
 </template>
 
