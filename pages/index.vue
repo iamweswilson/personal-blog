@@ -38,6 +38,11 @@
 </template>
 
 <script>
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
@@ -47,6 +52,19 @@ export default {
     return {
       articles
     }
+  },
+  mounted() {
+    gsap.set(".article-card", {y: 100});
+
+    ScrollTrigger.batch(".article-card", {
+      interval: .15,
+      batchMax: 4,
+      onEnter: batch => gsap.to(batch, {opacity: 1, y: 0, stagger: {each: 0.15, grid: [1, 2]}, overwrite: true}),
+      start: "20px bottom",
+      end: "top top"
+    });
+
+    ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".article-card", {y: 0}));
   }
 }
 </script>
@@ -63,6 +81,8 @@ p {
 }
 .article-card {
   border-radius: 8px;
+  /* for GSAP animation */
+  opacity: 0;
 }
 .article-card a {
   background-color: #fff;

@@ -1,5 +1,5 @@
 <template>
-  <section class="my-10 md:my-24 text-center">
+  <section class="about-text my-10 md:my-24 text-center">
     <p>Hi! 👋 I am Wes Wilson.
     </p>
     <p>
@@ -14,7 +14,9 @@
 import { gsap } from "gsap";
 export default {
   mounted() {
-    gsap.from('p', {opacity: 0, duration: 1, y: 30, stagger: 0.3})
+    gsap.from('.about-text p', {
+      opacity: 0, duration: 1, y: 30, stagger: 0.3
+    })
   }
 }
 </script>
