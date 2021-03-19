@@ -4,7 +4,9 @@
         <hr>
         <section>
           <h2>Thoughts, designs & other stuff</h2>
-          <ul class="flex flex-wrap">
+          <p class="text-sm">NOTE: This is where I write about random technology, things I've created or anything silly that comes to mind. <em>This is not a reflection of what I do at my "real" job, but might be a reflection of what I do on my "free" time.</em>
+          </p>
+          <ul class="flex flex-wrap mt-6">
             <li
               v-for="article of articles"
               :key="article.slug"
