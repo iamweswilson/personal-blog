@@ -14,8 +14,12 @@ Unfortunately, boards are expensive and getting out there for the first time can
 I helped bring a little reality to the idea by creating their logo, doing my best impression of Aaron Draplin with think lines, simple shapes, and bright colors. The style fits outdoors in the PNW so well, it’s hard to not go this direction.
 
 To test that we were using the right balance of sun vs waves, I put together a few variations of each.
-![Mockups](/img/pacific-paddle-club/ppc-variations.jpg?nf_resize=fit&w=751&h=563)
+![Variations](/img/pacific-paddle-club/ppc-variations.jpg?nf_resize=fit&w=751&h=563)
 
 I think the end result is balanced, fun and... I might be biased, but I’d wear this hat, which is the ‘real’ measure of success 🤪
 
 ![Mockups](/img/pacific-paddle-club/mockups.jpg?nf_resize=fit&w=751&h=563)
+
+Selfishly, I'm hoping this idea gets some legs so I can add some new t-shirts to my wardrobe.
+
+![SUP AF](/img/pacific-paddle-club/sup-af.png?nf_resize=fit&w=751&h=563)
