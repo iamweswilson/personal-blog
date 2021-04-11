@@ -20,6 +20,6 @@ I think the end result is balanced, fun and... I might be biased, but I’d wear
 
 ![Mockups](/img/pacific-paddle-club/mockups.jpg?nf_resize=fit&w=751&h=563)
 
-Selfishly, I'm hoping this idea gets some legs so I can add some new t-shirts to my wardrobe.
+Selfishly, I'm hoping this idea has legs so I can add some new t-shirts to my wardrobe.
 
 ![SUP AF](/img/pacific-paddle-club/sup-af.png?nf_resize=fit&w=751&h=563)
