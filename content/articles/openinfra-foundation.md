@@ -13,18 +13,18 @@ We are currently working to more closely integrate other Foundation owned brands
 
 ![Website - Summit](/img/openinfra/website-summit.png?nf_resize=fit&w=751&h=563)
 
-![Website](/img/openinfra/website-summit2.png?nf_resize=fit&w=751&h=563)
+![Website- Summit](/img/openinfra/website-summit2.png?nf_resize=fit&w=751&h=563)
 
-![Website](/img/openinfra/website-join.png?nf_resize=fit&w=751&h=563)
+![Website - Join](/img/openinfra/website-join.png?nf_resize=fit&w=751&h=563)
 
-![Website](/img/openinfra/website-keynotes.png?nf_resize=fit&w=751&h=563)
-openinfra.dev
+![Website - OpenInfra Live: Keynotes](/img/openinfra/website-keynotes.png?nf_resize=fit&w=751&h=563)
+*openinfra.dev*
 
 ![Logo reveal animation](/img/openinfra/reveal.gif?nf_resize=fit&w=751&h=563)
-Logo reveal animation
+*Logo reveal animation*
 
 ![Member Badges](/img/openinfra/member-badges.png?nf_resize=fit&w=751&h=563)
-Gold, Platinum and Silver membership badges
+*Gold, Platinum and Silver membership badges*
 
 ![Swag](/img/openinfra/swag.png?nf_resize=fit&w=751&h=563)
-and of course... swag
+*and of course... swag*
