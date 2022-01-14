@@ -26,7 +26,7 @@ Kitchen
 ![Website](/img/hoodhideaway/exterior.jpg?nf_resize=fit&w=751&h=563)
 Back deck
 
-Once the hard part was done, and being someone who appreciates branding, I knew this cabin needed an identity. My goal was to create a mark that conveyed adventure and a sense of the outdoors that was simple and memorable. Lake on the bottom, mountain up top. We also have aspirations of getting another rental one day, so the logo was designed so the type and colors could be modified to create a related, yet unique design.
+Once the hard part was done, and being someone who appreciates branding, I knew this cabin needed an identity. My goal was to create a mark that conveyed adventure and a sense of the outdoors that was simple and memorable. Lake below, mountain above. We have aspirations of owning another rental in the future, so the logo was designed with the idea that the type and colors could be modified to create a related, yet unique design for the next one.
 
 ![Website](/img/hoodhideaway/welcome-book.png?nf_resize=fit&w=751&h=563)
 Custom wood welcome book that sits in the entry way
