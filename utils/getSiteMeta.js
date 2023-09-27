@@ -1,7 +1,7 @@
 const type = "website";
 const url = "https://iamweswilson.com";
-const title = "I am Wes Wilson. This is my blog";
-const description = "I'm a designer, marketer and (at times) a front-end developer. I love building things and learning in the process.";
+const title = "I am Wes Wilson. Operations, Product Strategy, Open Source.";
+const description = "Versatile and strategic leader who excels at handling multiple responsibilities and roles.";
 const mainImage = "https://iamweswilson.com/img/wes.png";
 
 export default (meta) => {
