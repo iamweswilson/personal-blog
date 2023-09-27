@@ -1,7 +1,7 @@
 <template>
     <footer class="flex justify-center">
       <div>
-        Built with <a href="https://nuxtjs.org" target="_blank">NuxtJS</a> and <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, deployed to <a href="https://netlify.com">Netlify</a>.
+        Built with <a href="https://nuxtjs.org" target="_blank">NuxtJS</a> and <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, deployed to <a href="https://netlify.com" target="_blank">Netlify</a>.
       </div>
     </footer>
 </template>
