@@ -10,6 +10,9 @@
       As a leader in the open source community, I have spearheaded several initiatives that have enhanced the collaboration and innovation of OpenInfra. These include developing the OpenInfra Project Funds, a model for hosting and supporting open source projects, and launching the regional hubs OpenInfra Europe in Belgium and OpenInfra Asia in Singapore, which serve as platforms for connecting and empowering local stakeholders.
     </p>
     <p>Previously, I founded a <a href="https://brandcrowd.com" target="_blank">start-up</a> (acquired 2011), was Director of Product at <a href="https://venturelab.org/" target="_blank">VentureLab</a>, helped build ZippyKid (now <a href="https://pressable.com" target="_blank">Pressable</a>), was a mentor for <a href="https://techstars.com/" target="_blank">Techstars</a> Cloud, and spent a few years as a freelance consultant/designer.</p>
+    <p>
+      I am always open to connecting with individuals who share similar interests and goals. If you would like to reach out, please feel free to <a href="mailto:wes@iamweswilson.com">email me</a>.
+    </p>
   </section>
 </template>
 
