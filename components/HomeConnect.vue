@@ -10,7 +10,7 @@
       <p><a href="https://github.com/iamweswilson" target="_blank">Github</a></p>
     </main>
     <aside class="flex justify-end">
-      <img src="/img/profile-pic.jpg" class="block h-40 w-40 origin-right rounded-full" alt="">
+      <img src="/img/profile-pic.jpg?nf_resize=fit&w=130&h=130" class="block h-40 w-40 origin-right rounded-full" alt="">
     </aside>
   </section>
 </template>
