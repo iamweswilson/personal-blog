@@ -21,11 +21,14 @@
     "@nuxt/content": "1.4.1",
     "detab": "^2.0.4",
     "gsap": "^3.6.0",
-    "node-sass": "^5.0.0",
     "nuxt": "2.13.3",
     "prism-themes": "1.4.0",
     "sass-loader": "^10.1.0",
-    "vue-shortkey": "^3.1.7"
+    "vue": "^2.0.8",
+    "vue-server-renderer": "^2.1.8",
+    "vue-shortkey": "^3.1.7",
+    "vue-template-compiler": "^2.1.8",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.0",
@@ -43,6 +46,7 @@
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
+    "sass": "^1.68.0",
     "stylelint": "13.6.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "20.0.0"
