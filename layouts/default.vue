@@ -16,7 +16,7 @@
 <style>
 html {
   font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
