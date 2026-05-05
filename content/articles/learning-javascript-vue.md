@@ -1,7 +1,7 @@
 ---
 title: "Learning JavaScript, Vue and Nuxt"
 description: A few places I've leaned on in my journey to learn
-img: /img/learning-javascript-vue-nuxt.jpg?nf_resize=fit&w=751&h=563
+img: /img/learning-javascript-vue-nuxt.jpg
 alt: Learning JavaScript, Vue, Nuxt
 created: "2020-12-28T10:58:51.640Z"
 ---

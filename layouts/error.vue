@@ -2,7 +2,7 @@
   <div>
     <section class="mt-4 mb-12 text-center">
       <div v-if="error.statusCode === 404">
-        <img src="/img/404.png?nf_resize=fit&w=751&h=563" class="px-8 mb-8 mx-auto" alt="">
+        <img src="/img/404.png" class="px-8 mb-8 mx-auto" alt="">
         <h3 class="font-bold text-2xl">Well, this is embarrasing...</h3>
         <p>Looks like the page you're looking for isn't here. Could be my fault, could be yours. If you found a broken link somewhere, please 
         <a :href="'mailto:' +  'wes@iamweswilson.com?subject=I found a broken link!&body=Hey Wes,%0D%0A%0D%0AI found a broken link on your site. The page was supposed to be at' + ' ' + 'iamweswilson.com/' + currentURL">

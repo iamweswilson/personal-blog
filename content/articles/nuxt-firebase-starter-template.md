@@ -1,7 +1,7 @@
 ---
 title: "Nuxt + Firebase Starter Template"
 description: Sharing and open sourcing some of my learnings
-img: /img/nuxt-firebase-screenshot.png?nf_resize=fit&w=751&h=563
+img: /img/nuxt-firebase-screenshot.png
 alt: Nuxt + Firebase Starter Template
 created: "2021-01-05T10:58:51.640Z"
 ---

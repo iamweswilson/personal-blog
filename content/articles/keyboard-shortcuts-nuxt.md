@@ -1,7 +1,7 @@
 ---
 title: "Adding keyboard shortcuts to Nuxt"
 description: More code fun, navigating posts
-img: /img/shortcuts.jpg?nf_resize=fit&w=751&h=563
+img: /img/shortcuts.jpg
 alt: Keyboard shortcuts
 created: "2020-11-24T10:58:51.640Z"
 ---

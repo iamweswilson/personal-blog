@@ -1,7 +1,7 @@
 ---
 title: "OpenInfra Foundation"
 description: Relaunching the OpenStack Foundation
-img: /img/openinfra/main-logo.png?nf_resize=fit&w=751&h=563
+img: /img/openinfra/main-logo.png
 alt: OpenInfra Foundation
 created: "2021-06-07T14:21:51.640Z"
 ---
@@ -11,20 +11,20 @@ James Cole on our team designed a fresh, uplifting brand based on subway-style i
 
 We are currently working to more closely integrate other Foundation owned brands like the OpenInfra Summit, OpenInfra Live and OpenInfra Days.
 
-![Website - Summit](/img/openinfra/website-summit.png?nf_resize=fit&w=751&h=563)
+![Website - Summit](/img/openinfra/website-summit.png)
 
-![Website- Summit](/img/openinfra/website-summit2.png?nf_resize=fit&w=751&h=563)
+![Website- Summit](/img/openinfra/website-summit2.png)
 
-![Website - Join](/img/openinfra/website-join.png?nf_resize=fit&w=751&h=563)
+![Website - Join](/img/openinfra/website-join.png)
 
-![Website - OpenInfra Live: Keynotes](/img/openinfra/website-keynotes.png?nf_resize=fit&w=751&h=563)
+![Website - OpenInfra Live: Keynotes](/img/openinfra/website-keynotes.png)
 *openinfra.dev*
 
-![Logo reveal animation](/img/openinfra/reveal.gif?nf_resize=fit&w=751&h=563)
+![Logo reveal animation](/img/openinfra/reveal.gif)
 *Logo reveal animation*
 
-![Member Badges](/img/openinfra/member-badges.png?nf_resize=fit&w=751&h=563)
+![Member Badges](/img/openinfra/member-badges.png)
 *Gold, Platinum and Silver membership badges*
 
-![Swag](/img/openinfra/swag.png?nf_resize=fit&w=751&h=563)
+![Swag](/img/openinfra/swag.png)
 *and of course... swag*

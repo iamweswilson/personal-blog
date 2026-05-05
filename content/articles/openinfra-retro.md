@@ -1,7 +1,7 @@
 ---
 title: "We Are OpenInfra"
 description: Celebrating OIF launch with some retro-ness
-img: /img/openinfra-retro.jpg?nf_resize=fit&w=751&h=563
+img: /img/openinfra-retro.jpg
 alt: We Are OpenInfra
 created: "2020-11-01T10:58:51.640Z"
 ---

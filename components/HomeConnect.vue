@@ -10,7 +10,7 @@
       <p><a href="https://www.facebook.com/iamweswilson/" target="_blank">Facebook</a></p>
     </main>
     <aside class="flex justify-end">
-      <img src="/img/profile-pic.jpg?nf_resize=fit&w=130&h=130" class="block h-40 w-40 rounded-full object-cover" style="object-position: 50% 0%;" alt="Headshot of Wes Wilson">
+      <img src="/img/profile-pic.jpg" class="block h-40 w-40 rounded-full object-cover" style="object-position: 50% 0%;" alt="Headshot of Wes Wilson">
     </aside>
   </section>
 </template>

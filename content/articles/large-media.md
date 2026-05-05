@@ -1,7 +1,7 @@
 ---
 title: "Setting up Netlify Large Media"
 description: Playing with code and learning something new
-img: /img/large-media.jpg?nf_resize=fit&w=751&h=563
+img: /img/large-media.jpg
 alt: Netlify Large Media
 created: "2020-11-20T10:58:51.640Z"
 ---
@@ -102,12 +102,12 @@ I decided to integrate [Netlify Large Media](https://docs.netlify.com/large-medi
  ### Step 7: 
  Now that everything is installed, I got back to the original purpose. Here’s where you apply the parameters to serve transformed images.  Append this to each call to an image file.
  ```
- ?nf_resize=fit&w=300&h=300
+ 
  ```
 
  For example,
  ```
- img/img_name.png?nf_resize=fit&w=300&h=300
+ img/img_name.png
  ```
 
  That did the trick for me! Now every deploy automagically moves images into LFS. 

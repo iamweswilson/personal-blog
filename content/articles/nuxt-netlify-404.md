@@ -1,7 +1,7 @@
 ---
 title: "Creating 404 pages with Nuxt and Netlify"
 description: A walk through on setting up my 404 page
-img: /img/404-blue.png?nf_resize=fit&w=751&h=563
+img: /img/404-blue.png
 alt: Creating 404 pages with Nuxt and Netlify
 created: "2021-01-19T10:58:51.640Z"
 ---
@@ -14,7 +14,7 @@ With all of that in mind, I decided to create [my own custom 404 page](/404). If
 ### First, know you're environment
 One of the great things about Netlify is that they provide so many goodies from the very start. For example, without doing anything special Netlify provides your site with a 404 page. It’s actually a well executed page with a clean design and straightforward language. It has the minimal functionality needed baked in if you don’t want to create your own.
 
-![Netlify's default 404 page](/img/404-post/netlify-404.png?nf_resize=fit&w=751&h=563)
+![Netlify's default 404 page](/img/404-post/netlify-404.png)
 
 Since I wanted to create my own custom page, I needed to take a few additional steps.
 
@@ -114,11 +114,11 @@ Now that I have the functionality in place, I get to do the fun stuff. I won’t
 
 **To accomplish #1**, I decided to illustrate myself. I've been enjoying learning how to illustrate emotions in a human face and I've never tried to draw myself before. Hopefully this would add a little personality to the page in the process. I'm pretty pleased with the final result, but it took an iteration or two to get there. I created a version before this, seen below, but Twitter quickly told me it was "alarming" and implied more than it should. You can use your imagination on why. Luckily, this is why you beta test.
 
-![Take one: alarming 404](/img/404-post/alarming-404.jpg?nf_resize=fit&w=751&h=563)
+![Take one: alarming 404](/img/404-post/alarming-404.jpg)
 
 After that feedback, I decided to close his mouth and instead make the character's head the "0" in the 404. ***Much better.***
 
-![Final 404 illustration](/img/404-post/final-404.png?nf_resize=fit&w=751&h=563)
+![Final 404 illustration](/img/404-post/final-404.png)
 
 **To accomplish #2**, I wanted to make it very easy to share when a page is broken. I got the idea from [Jason Lengstor's 404 page](https://www.jason.af/404), who's functionality opens a prefilled Github issue. I loved that idea, but decided to use email instead, hoping it's a bit more universal for non-tech folks.
 

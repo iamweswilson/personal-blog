@@ -1,7 +1,7 @@
 ---
 title: "Adjusting UI Based on Intended Focus"
 description: An exercise in UX, how content can change to attract users
-img: /img/ui-by-focus.png?nf_resize=fit&w=751&h=563
+img: /img/ui-by-focus.png
 alt: Adjusting UI based on intended focus
 created: "2021-01-12T10:58:51.640Z"
 ---

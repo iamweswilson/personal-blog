@@ -1,7 +1,7 @@
 ---
 title: "OKR on my mind"
 description: Taking a break from writing OKRs by drawing OKRs
-img: /img/okr.png?nf_resize=fit&w=751&h=563
+img: /img/okr.png
 alt: OKRs on my mind
 created: "2021-01-14T10:58:51.640Z"
 ---
