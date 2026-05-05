@@ -1,4 +1,6 @@
-:root {
+:root,
+.light-mode,
+.light {
   --color: #162c40;
   --color-primary: #f24949;
   --color-secondary: #162c40;
@@ -11,7 +13,8 @@
   --pre-color: #f3f5f4;
 }
 
-.dark-mode {
+.dark-mode,
+.dark {
   --color: #ebf4f1;
   --color-primary: #f24949;
   --color-secondary: #fdf9f3;
@@ -23,7 +26,8 @@
   --pre: #263238;
   --pre-color: #fdf9f3;
 }
-.sepia-mode {
+.sepia-mode,
+.sepia {
   --color: #433422;
   --color-secondary: #504231;
   --bg: #f1e7d0;

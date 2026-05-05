@@ -1,4 +1,5 @@
 import getSiteMeta from './utils/getSiteMeta'
+import path from 'path'
 const meta = getSiteMeta()
 
 export default {
@@ -78,6 +79,11 @@ export default {
     '@nuxt/content',
     '@nuxtjs/redirect-module'
   ],
+  colorMode: {
+    classSuffix: '-mode',
+    preference: 'light',
+    fallback: 'light'
+  },
   loading: {
     // https://nuxtjs.org/docs/2.x/features/loading
     color: '#f24949',
@@ -108,5 +114,17 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {
+    extend (config, ctx) {
+      if (!config.resolve) {
+        config.resolve = {}
+      }
+      if (!config.resolve.alias) {
+        config.resolve.alias = {}
+      }
+      const consolaPath = path.resolve(__dirname, 'utils/consola-client.js')
+      config.resolve.alias.consola = consolaPath
+      config.resolve.alias['consola$'] = consolaPath
+    }
+  }
 }

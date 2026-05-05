@@ -1,8 +1,8 @@
 <template>
   <div>
     <ul>
-      <li v-for="color of colors" :key="color" :title="$colorMode.preference">
-        <component :is="`icon-${color}`" @click="$colorMode.preference = color" :class="getClasses(color)" />
+      <li v-for="color of colors" :key="color" :title="$colorMode.preference" @click="setMode(color)">
+        <component :is="`icon-${color}`" :class="getClasses(color)" />
       </li>
     </ul>
   </div>
@@ -63,6 +63,9 @@
       }
     },
     methods: {
+      setMode (color) {
+        this.$colorMode.preference = color
+      },
       getClasses (color) {
         // Does not set classes on ssr when preference is system (because we don't know the preference until client-side)
         if (this.$colorMode.unknown) {
