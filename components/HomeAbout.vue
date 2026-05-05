@@ -1,6 +1,9 @@
 <template>
   <section class="about-text my-10 md:my-24 text-left">
     <p>
+      I am Wes Wilson.
+    </p>
+    <p>
       Strategic operations executive serving as Chief of Staff at the <a href="https://openinfra.org" target="_blank">OpenInfra Foundation</a>, part of the <a href="https://linuxfoundation.org" target="_blank">Linux Foundation</a>, which is home to open source projects powering the most critical workloads in the world. I partner with the Executive Director and Board to advance the Foundation's mission, drive organizational strategy, and lead cross-functional initiatives spanning finance, legal, governance, vendor management, and member operations.
     </p>
     <p>
